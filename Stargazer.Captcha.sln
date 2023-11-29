@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE69A30D-8B0C-4741-9921-0E21AC8E2D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stargazer.Captcha", "src\Stargazer.Captcha\Stargazer.Captcha.csproj", "{033C897A-4B07-46AA-854B-9FA7D106C65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stargazer.Web", "src\Stargazer.Web\Stargazer.Web.csproj", "{45F63B89-8788-450B-A528-C5A7ED71B70E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033C897A-4B07-46AA-854B-9FA7D106C65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033C897A-4B07-46AA-854B-9FA7D106C65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033C897A-4B07-46AA-854B-9FA7D106C65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033C897A-4B07-46AA-854B-9FA7D106C65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F63B89-8788-450B-A528-C5A7ED71B70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F63B89-8788-450B-A528-C5A7ED71B70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F63B89-8788-450B-A528-C5A7ED71B70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F63B89-8788-450B-A528-C5A7ED71B70E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{033C897A-4B07-46AA-854B-9FA7D106C65C} = {BE69A30D-8B0C-4741-9921-0E21AC8E2D04}
+		{45F63B89-8788-450B-A528-C5A7ED71B70E} = {BE69A30D-8B0C-4741-9921-0E21AC8E2D04}
+	EndGlobalSection
+EndGlobal
